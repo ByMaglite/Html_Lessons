@@ -1,0 +1,46 @@
+.lorem1 {
+    height: 500px;
+    width: 50%;
+    background-color: indianred;
+}
+
+.lorem2 {
+    background-color: lightblue;
+    width: 300px;
+    padding: 20px;
+    border: 15px solid navy;
+}
+
+/*
+width + 20 + 20 + 15 + 15 = 370
+height + 20 + 20 + 15 + 15 = 370
+*/
+
+
+.max-width{
+    max-width: 50%;
+}
+
+span {
+    background-color: olive;
+}
+
+.min-width {
+    min-width: 800px;
+    display: inline-block;
+}
+
+.max-height {
+    max-height: 20px;
+    overflow: auto;
+    border: 10px solid red;
+    padding: 10px;
+}
+
+.last {
+    background-color: palevioletred;
+}
+
+.min-height {
+    min-height: 100px;
+}
