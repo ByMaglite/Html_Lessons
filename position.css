@@ -1,0 +1,37 @@
+.static{ /* default değer static */
+    position: static;
+    border: 3px solid rebeccapurple;
+}
+.relative{ /*top ve left position olmadan çalışmaz*/
+    position: relative;
+    border: 3px dotted green;
+    top: 20px;
+    left: 20px;
+}
+.fixed{ /* sayfa kaydırılsa bile sabit kalıyor*/
+    position: fixed;
+    border: 3px double hotpink;
+    top: 500px;
+    left: 30px;
+}
+.absolute{/* parent ın içine konumlandırdı*/
+    position: absolute;
+    border: 3px dashed deepskyblue;
+    top: 70px;
+    right: 0px;
+    width: 120px;
+    height: 70px;
+}
+.relative2{
+    position: relative;
+    border: 3px solid gold;
+    width: 300px;
+    height: 200px;
+}
+.sticky{ /* scroll  bar aşağı inince parent bitene kadar sticky yukarıda kalır.*/
+    position: sticky;
+    top: 10px;
+    padding: 7px;
+    background-color: indianred;
+    border: 3px solid khaki;
+}

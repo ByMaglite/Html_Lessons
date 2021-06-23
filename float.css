@@ -1,0 +1,11 @@
+div {
+    border: 3px solid black;
+}
+img {
+    float: none;
+     /* right:alanın sağına alır, left:alanın soluna, none: default şekilde sayfanın desteklediği gibi konumlandırır*/
+}
+/* clear: ile de sağını solunu veya her ikisini temizleyebiliriz */
+.clearfix::after{
+    content: "";
+}

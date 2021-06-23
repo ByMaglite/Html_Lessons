@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+
+<body>
+    <form action="result.html" method="GET">
+        <div>
+            <label for="isim">ad:</label>
+            <input id="isim" type="text" name="isim" placeholder="buraya isim yazınız"> <br>
+            <label for="sname">soy ad:</label>
+            <input id="sname" type="text" name="soyisim" placeholder="buraya soy isim yazınız">
+        </div>
+        <div>
+            <label for="şifre">parola:</label>
+            <input type="password" name="parola" id="şifre" placeholder="buraya şifre yazınız">
+        </div>
+
+        <div>
+            <label for="">gender</label>
+            <input type="radio" name="gender" value="male" id="gender1">
+            <label for="">male</label>
+            <input type="radio" name="gender" id="gender2" value="female">
+            <label for="gender2">female</label>
+        </div>
+
+        <div>
+            <label for="">Favori Hayvan Seçiniz</label>
+            <input type="checkbox" name="animal_1" id="panda" value="panda">
+            <label for="panda">Panda</label>
+            <input type="checkbox" name="animal_2" id="balık" value="balık">
+            <label for="balık">Balık</label>
+            <input type="checkbox" name="animal_3" id="at" value="at">
+            <label for="at">At</label>
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" step="1" min="18" max="45">
+        </div>
+
+        <div>
+            <label for="ara">ara:</label>
+            <input type="search" name="arandı" id="search" placeholder="ara">
+        </div>
+
+        <div>
+            <label for="color">Renk seç</label>
+            <input type="color" name="seçilen renk" id="renk">
+        </div>
+
+        <div>
+            <label for="tarih">Bir tarih seçiniz</label>
+            <input type="date" name="seçilen tarih" id="tarih" min="2020-05-20" max="2021-06-21">
+        </div>
+        <div>
+            <label for="mail">Mail:</label>
+            <input type="mail" name="kullanıcı emaili" id="mail">
+        </div>
+
+        <div>
+            <label for="dosya">Dosya seç:</label>
+            <input type="file" name="kullanıcı dosyası" id="dosya">
+        </div>
+
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="tlf no">
+        </div>
+
+
+
+        <br><br><br><br><br>
+        <label for="reset">Reset</label>
+        <input type="reset" value="reset">
+        <input type="submit">
+    </form>
+</body>
+
+</html>

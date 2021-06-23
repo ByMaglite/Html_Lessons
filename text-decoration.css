@@ -1,0 +1,89 @@
+.div1{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    background-color: rgb(201, 224, 211);
+    border: 1px solid blue;
+    width: 80%;
+    margin: auto;
+
+}
+#par1{
+    line-height: 1.5;
+    text-indent: 20px;
+    text-transform: capitalize;
+    text-decoration: overline;
+    text-align: center;
+    color: lawngreen;
+    padding: 10px 20px 30px 40px;
+    background-color: rgb(141, 108, 93);
+    border-style: dotted;
+    border-width: 2px;
+    border-color: fuchsia;
+}
+#par2{
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-align: left;
+    color: lightcoral;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: slategrey;
+    border-style: groove;
+    border-width: 4px 6px;
+    border-color: aqua;
+}
+#par3{
+    text-shadow: 3px 5px blueviolet;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: right;
+    color: #fff;
+    width: auto;
+    padding-inline-start: 50px;
+    background-color: rgb(141, 123, 141);
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(46, 47, 124);
+}
+#par4{
+    text-transform: none;
+    text-decoration: wavy;
+    text-align: justify;
+    color: rgb(74, 83, 163);
+    padding: inherit;
+    background-color: rgb(139, 139, 111);
+    border-style: double;
+    border-width: 9px;
+    border-color: rgb(142, 197, 54);
+}
+#par5{
+    text-shadow: blueviolet 2px 8px;
+    letter-spacing: 7px;
+    text-transform: inherit;
+    text-decoration: currentColor;
+    text-align: inherit;
+    color: magenta;
+    width: auto;
+    margin: 20px;
+    background-color: rgb(89, 109, 109);
+    border-style: dashed;
+    border-width: 7px;
+    border-color: rgba(10, 19, 24, 0.5);
+}
+a:link{
+    color: khaki;
+}
+a:visited{
+    color: rgb(166, 184, 119);
+}
+a:hover{
+    color: rgb(124, 31, 101);
+}
+a:active{
+    color: maroon;
+}
