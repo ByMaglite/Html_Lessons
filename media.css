@@ -1,0 +1,48 @@
+body {
+    background: white;
+}
+
+.details {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h3{
+    border: 3px solid green;
+}
+
+@media (min-width:320px) {
+    body {
+        background-color: palevioletred;
+    }
+}
+
+@media (min-width:768px) {
+    body {
+        background-color: paleturquoise;
+    }
+}
+
+@media (min-width:1024px) {
+    body {
+        background-color: palegreen;
+    }
+}
+
+@media (min-width:1224px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media (min-width:1824px) {
+    body {
+        background-color: burlywood;
+    }
+}
+
+@media (min-width:850px) and (max-width:950px){
+    body {
+        background-color: grey;
+    }
+}
