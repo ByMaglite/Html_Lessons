@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*fLEX cONTAİNER pROPERTİES*/
+.flex-container{
+    border: 6px solid green;
+    display: flex;
+    height: 500px;
+    /* display: inline-flex; */
+    /*flex-direction*/
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-flow shorthand-flexdirection flexwrap*/
+    /* flex-flow: row nowrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: flex-start; default */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+}
+.items {
+    background-color: indianred;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin: 3px;
+    text-align: center;
+    width: 100px;
+}
+.item1 {
+    /* font-size: 70px; */
+    /*orderın defalut değeri 0*/
+    /* order: 1; */
+    align-self: flex-start;
+}
+.item2 {
+    /* font-size: 50px; */
+    /* order: 2; */
+    /* flex-basis: 200px; */
+    align-self: flex-end;
+}
+.item3 {
+    /* order: 3; */
+    /* flex-grow: 1; default değer 0*/
+    align-self: center;
+}
+.item4 {
+    /* order: 3; */
+    /* flex-grow: 3; */
+    /* flex-shrink: 2; */
+    align-self: baseline;
+}
