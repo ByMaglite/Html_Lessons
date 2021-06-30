@@ -1,0 +1,16 @@
+div p{
+    background-color: royalblue;
+    color: white;
+}
+/*child selector**/
+div > p {
+    background-color: yellowgreen;
+}
+/*adj sibling slc hemen arkasından geleni alır*/
+div + p {
+    background-color: tomato;
+}
+/* general sibling divden sonraki tüm pleri alır*/
+div~p{
+    background-color: turquoise;
+}
