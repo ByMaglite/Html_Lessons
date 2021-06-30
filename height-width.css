@@ -44,3 +44,10 @@ span {
 .min-height {
     min-height: 100px;
 }
+/*Herhangi bir <div> elementine width özelliği verdiğinizde bu elementin genişliği her zaman verdiğiniz değer kadar olur.
+Tarayıcı penceresi daraltıldığında div aynı genişlikte kalır ve tarayıcı penceresinde kaydırma çubuğu belirir.
+Mobil cihazlar küçük ekranlara sahip oldukları için bu durum hoş olmayabilir.
+width yerine max-width kullanmak bu sorunu çözecektir. max-width ile div elementi en fazla ne kadar genişliğe sahip olacak bunu belirtiriz.
+width özelliğinde genişlik sabitken, max-width ile daha dinamik hale gelir. max-width'e verdiğiniz değer elementin en fazla alacağı genişliği belirler.
+max-width margin, padding ve kenarlıkları içermez.
+width değeri daha geniş olsa bile max-width değerini aşamaz. Bu ilginç bir kuraldır. Ancak min-width değeri eğer max-width değerinden büyükse bu değeri uygular, yani min-width değeri baskındır.*/

@@ -56,3 +56,11 @@ p.inset{
 p.outset{
     outline: purple 5px outset;
 }
+p.elma{
+    background-color: blue;
+    border: 1px solid black;
+    outline:red 5px solid;
+    outline-offset: -5px;
+
+
+}
